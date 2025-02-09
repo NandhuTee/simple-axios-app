@@ -1,3 +1,42 @@
+Step-by-step process using **Vite** instead of Create React App:
+
+**Steps to Create the Project**
+
+1. **Create a new Vite project:**
+
+```bash
+
+npm create vite@latest simple-axios-app
+```
+1. **Select Framework and Variant:**
+    - Choose **React**
+    - Select **JavaScript**
+2. **Navigate into the project directory:**
+
+```bash
+
+cd simple-axios-app
+```
+1. **Install dependencies:**
+
+```bash
+
+npm install
+```
+1. **Install Axios:**
+
+```bash
+
+npm install axios
+```
+### ****Run the Project****
+
+```bash
+
+npm run dev
+```
+This will start the Vite development server, and you can access your app at <http://localhost:5173>.
+
 **1\. Axios vs Fetch vs Async/Await vs Promise in React**
 
 | **Feature** | **Axios** | **Fetch** | **Async/Await** | **Promise** |
